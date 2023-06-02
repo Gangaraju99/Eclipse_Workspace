@@ -1,0 +1,12 @@
+package com.data.time;
+
+public class PrintDate {
+	public static void main(String[] args) {
+		
+		PrintDate date  = PrintDate.of(2023,05,24);
+		
+		
+		
+	}
+
+}

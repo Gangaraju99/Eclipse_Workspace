@@ -1,0 +1,14 @@
+127.0.0.1 - - [25/Feb/2023:23:14:27 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [25/Feb/2023:23:21:15 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [25/Feb/2023:23:21:16 +0530] "GET /ForgotPassword/ HTTP/1.1" 200 503
+0:0:0:0:0:0:0:1 - - [25/Feb/2023:23:21:26 +0530] "POST /ForgotPassword/LoginServlet HTTP/1.1" 200 261
+0:0:0:0:0:0:0:1 - - [25/Feb/2023:23:21:26 +0530] "GET /ForgotPassword/links.jsp HTTP/1.1" 200 386
+0:0:0:0:0:0:0:1 - - [25/Feb/2023:23:21:28 +0530] "GET /ForgotPassword/LogoutServlet HTTP/1.1" 405 751
+0:0:0:0:0:0:0:1 - - [25/Feb/2023:23:21:32 +0530] "GET /ForgotPassword/Family.jsp HTTP/1.1" 200 417
+0:0:0:0:0:0:0:1 - - [25/Feb/2023:23:21:34 +0530] "GET /ForgotPassword/LogoutServlet HTTP/1.1" 405 751
+0:0:0:0:0:0:0:1 - - [25/Feb/2023:23:32:40 +0530] "GET /ForgotPassword/ HTTP/1.1" 200 503
+0:0:0:0:0:0:0:1 - - [25/Feb/2023:23:32:46 +0530] "POST /ForgotPassword/LoginServlet HTTP/1.1" 200 261
+0:0:0:0:0:0:0:1 - - [25/Feb/2023:23:32:46 +0530] "GET /ForgotPassword/links.jsp HTTP/1.1" 200 363
+0:0:0:0:0:0:0:1 - - [25/Feb/2023:23:32:47 +0530] "GET /ForgotPassword/LogoutServlet HTTP/1.1" 405 751
+0:0:0:0:0:0:0:1 - - [25/Feb/2023:23:33:18 +0530] "GET /ForgotPassword/LogoutServlet HTTP/1.1" 405 751
+0:0:0:0:0:0:0:1 - - [25/Feb/2023:23:33:55 +0530] "GET /ForgotPassword/LogoutServlet HTTP/1.1" 405 751

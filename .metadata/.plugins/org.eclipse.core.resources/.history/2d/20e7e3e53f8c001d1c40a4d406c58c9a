@@ -1,0 +1,79 @@
+package Oops;
+
+
+ class Participant {
+	public  static int counter ;
+	 int registrationId ;
+	 String name;
+	 long contactNumber;
+	 String city;
+	 
+	 
+	 static {
+		 counter = 0;
+		 
+	 }
+	
+	 
+	 public Participant(  int registrationId, String name,	 long contactNumber, String city) {
+		 
+		 this.registrationId = registrationId;
+		 this.name = name;
+		 this.contactNumber = contactNumber;
+		 this.city = city;
+		 
+	 }
+    public void setRegistration (int registraction) {
+    	this.registrationId= registraction;
+    }
+    public int getRegistraction() {
+    	return registrationId;
+    }
+  public void setName(String name) {
+	  this.name = name;
+  }
+ public String getName() {
+	 return name;
+ }
+  public void setContactNumber(long contactNumber) {
+	  this.contactNumber=contactNumber;
+	  
+  }
+  public long getContactNumber() {
+	  return contactNumber;
+	  
+  }
+  public void setCity(String city) {
+	  this.city=city;
+  }
+  public String getCity() {
+	 return city;
+	  
+  }
+  
+ }
+ 
+public class problem3 {
+	public static void main(String[] args) {
+    Participant obj1 = new Participant(11188,"john", 1236547892,"Hyderabad");
+    Participant obj2 = new Participant(11188,"david", 564892823,"Goa");
+    Participant obj3 = new Participant(11190,"james", 369856492,"vizag");
+
+    Participant [] adding = {obj1,obj2,obj3};
+    
+    for(int i = 0; i<adding.length;i++) {
+    	if(("Hyderabad").equals(adding[i].getCity())){
+    		System.out.println(adding[i]);
+    		
+    		
+    	}
+    }
+
+    
+	
+	
+	
+	}
+	
+
+}

@@ -1,0 +1,14 @@
+package com.data.time;
+
+import java.time.LocalDate;
+
+public class PrintDate {
+	public static void main(String[] args) {
+		
+		LocalDate date = LocalDate.parse("2023-05-24");
+		System.out.println(date);
+		
+		
+	}
+
+}

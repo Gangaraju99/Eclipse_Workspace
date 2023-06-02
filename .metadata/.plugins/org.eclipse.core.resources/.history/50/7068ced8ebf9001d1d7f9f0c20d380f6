@@ -1,0 +1,42 @@
+package com.data.time;
+
+import java.time.DayOfWeek;
+import java.time.LocalDate;
+import java.time.Month;
+
+public class PrintDate {
+	public static void main(String[] args) {
+		
+		LocalDate date = LocalDate.parse("2023-05-24");
+		LocalDate date1 = LocalDate.of(2023,05,24);
+
+		System.out.println(date);
+		
+		//plusDays() and minusDays()
+		
+		LocalDate ld = LocalDate.now();
+		LocalDate minusDays = ld.plusMonths(2);
+		LocalDate plusDays = ld.plusDays(1);
+		
+		//getter methods
+		
+		LocalDate local = LocalDate.now();
+		DayOfWeek dayOfWeek = local.getDayOfWeek();
+		Month month = local.getMonth();
+		int dayOfMonth = local.getDayOfMonth();
+
+		//idLeapYear()
+		LocalDate currDate = LocalDate.now();
+		boolean leapYear = currDate.isLeapYear();
+		System.out.println(leapYear);
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

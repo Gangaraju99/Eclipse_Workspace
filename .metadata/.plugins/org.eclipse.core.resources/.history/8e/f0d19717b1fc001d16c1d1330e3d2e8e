@@ -1,0 +1,16 @@
+package com.data.time;
+
+public interface Empty {
+	public static void main(String[] args) {
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

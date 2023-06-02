@@ -1,0 +1,13 @@
+
+public class NullPointerException {
+@SuppressWarnings("null")
+public static void main(String[] args) {
+	
+	String s = null;	
+	  int indexOf = s.indexOf(1);
+	  
+	 
+	
+	
+}
+}

@@ -1,0 +1,46 @@
+<%@page import="com.jsp.dto.DisplayDto"%>
+<%@page import="java.util.ArrayList"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee data</title>
+</head>
+<body>
+	<h1>Employee details</h1>
+	<table>
+		<tr>
+			<th>name</th>
+			<th>Email</th>
+			<th>phone</th>
+		</tr>
+		
+		<%
+		try{
+			
+		
+		ArrayList<DisplayDto> details =( ArrayList<DisplayDto>)request.getAttribute("list");
+		
+		for(DisplayDto e : details){
+			
+			
+		
+		
+		%>
+		<tr>
+		<td><%=e.getName() %></td>
+		<td><%=e.getEmail() %></td>
+		<td><%=e.getPhone() %></td>
+		<%
+		}
+		}catch(Exception ex){
+			ex.printStackTrace();
+		}
+		%>
+ 
+</table>
+</body>
+</html>
